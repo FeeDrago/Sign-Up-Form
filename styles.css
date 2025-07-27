@@ -4,9 +4,14 @@
 }
 
 
+body div {
+    display: flex;
+}
+
+
 .sidebar {
     position: relative;
-    width: 25vw;
+    width: 30vw;
     min-width: 300px;
     height: 100vh;
     overflow: hidden;
@@ -34,7 +39,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 200px;
     
     margin: 40% 0px;
 }
@@ -62,3 +67,23 @@
 .credits a {
     color: white;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    align-items: center;
+    background-color: #f9fafb;
+}
+
+.information {
+    font-size: 0.8rem;
+    margin: 30px;
+}
+
+.form-container {
+    background-color: white;
+    width: 100%;
+}
+
